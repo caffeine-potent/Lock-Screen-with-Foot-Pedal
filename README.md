@@ -1,5 +1,5 @@
 #Lock Screen Via Foot-switch
-This repo is dead simple. I've used this code to solve the issue of locking my screen at work and me not really liking the process of having to press a sequence of keys to do so (security requirements require locked screens)  
+This repo is dead simple. I've used this code to solve the issue of locking my screen at work and me not really liking the process of having to press a sequence of keys to do so.  ( I have weird, but probably reasonable,  security requirements that require us to keel idle screens locked at work)  
 
 User interaction  
 =
@@ -18,17 +18,19 @@ This code is set up to react to an FS1-P foot switch
   
 ![img](https://images-na.ssl-images-amazon.com/images/I/41EIABYeteL._SX425_.jpg)
 
-You can order an FS1-M on Amazon by following this [link](https://www.amazon.com/FS1-M-Single-Switch-Control-Keyboard/dp/B00G5ZRJDA) (The model numbers are different but the `FS` prefix is the only thing matters)  
+You can order an FS1-M on Amazon by following this [link](https://www.amazon.com/FS1-M-Single-Switch-Control-Keyboard/dp/B00G5ZRJDA)  
+  
+> NOTE: The model numbers of these products are different but seems as thought the only thing that matters for compatibility is the `FS` prefix.(Aside from the obvious requirement that these should come from the same manufacturer)  
   
 
 Configuring the USB Pedal
 =  
 
-The code written here works on the basis that my keyboard only has `f1`-`f12`. I configure the switch to press `f14`. A python script listens and reacts to that key press.   
+The code written here leverages the fact that my keyboard only has `f1`-`f12` keys. This OS supports up to `f24`.     
+So I configure the switch to press and imaginary `f14` and write a python script then listens and reacts to that key press.   
 
 Configuration is fairly simple. Download the software [here](http://software.pcsensor.com/pc_en.html). 
 
->  I downloaded `FootSwitch V6.7.9.zip`. You can get away with selecting any item in the gallery that says footswitch and looks like a foot-switch. 
 
 Refer to the following `.gif`  
   
@@ -36,6 +38,7 @@ Refer to the following `.gif`
 
   
 
+>  I downloaded `FootSwitch V6.7.9.zip`. You can get away with selecting any item in the gallery that says footswitch and looks like a foot-switch. 
 
 
 
@@ -54,7 +57,7 @@ Here's some bash to help you along:
 The code
 =
 
-So short I can display it in this `README.md` file
+The code is so short that it makes sense to display in the `README.md` file.
 
 
 
