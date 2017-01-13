@@ -1,5 +1,5 @@
 #Lock Screen Via Foot-switch
-This repo is dead simple. I've used this code to solve the issue of locking my screen at work and me not really liking the process of having to press a sequence of keys to do so.  ( I have weird, but probably reasonable,  security requirements that require us to keel idle screens locked at work)  
+This repo is dead simple. I've used this code to solve the issue of locking my screen at work and me not really liking the process of having to press a sequence of keys to do so.  ( I have weird, but probably reasonable,  security requirements at work that require coders to keep idle screens locked)  
 
 User interaction  
 =
@@ -20,14 +20,14 @@ This code is set up to react to an FS1-P foot switch
 
 You can order an FS1-M on Amazon by following this [link](https://www.amazon.com/FS1-M-Single-Switch-Control-Keyboard/dp/B00G5ZRJDA)  
   
-> NOTE: The model numbers of these products are different but seems as thought the only thing that matters for compatibility is the `FS` prefix.(Aside from the obvious requirement that these should come from the same manufacturer)  
+> NOTE: While the model numbers of these products are different, it seems as though the only thing that matters for compatibility is the `FS` prefix.  
   
 
 Configuring the USB Pedal
 =  
 
 The code written here leverages the fact that my keyboard only has `f1`-`f12` keys. This OS supports up to `f24`.     
-So I configure the switch to press and imaginary `f14` and write a python script then listens and reacts to that key press.   
+So I configure the pedal to act as an `f14` key and write a python script then listens and reacts to that key press.   
 
 Configuration is fairly simple. Download the software [here](http://software.pcsensor.com/pc_en.html). 
 
