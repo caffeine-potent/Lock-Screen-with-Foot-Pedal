@@ -1,4 +1,4 @@
-#Lock Screen Via Foot-switch
+# Lock Screen Via Foot-switch
 This repo is dead simple. I've used this code to solve the issue of locking my screen at work and me not really liking the process of having to press a sequence of keys to do so.  ( I have weird, but probably reasonable,  security requirements at work that require coders to keep idle screens locked)  
 
 User interaction  
